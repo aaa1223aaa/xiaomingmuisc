@@ -35,7 +35,6 @@
             $this.times = [];
             $this.lyrics = [];
             var array = data.split("\n");
-            // console.log(array);
             // [00:00.92]
             var timeReg = /\[(\d*:\d*\.\d*)\]/
             // 遍历取出每一条歌词

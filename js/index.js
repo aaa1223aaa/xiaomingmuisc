@@ -331,12 +331,12 @@ $(function () {
             })
             $('.content_right').css({
                 float: "none",
-                margin: "auto"
-
-
+                margin: "auto",
+                display: "block"
             })
             $('.song_lyric_container').css({
-                height: "70%"
+                height: "50%",
+                marginTop: "20%"
             })
             aa = 1;
         } else {
@@ -345,7 +345,9 @@ $(function () {
                 display: "block"
             })
             $('.content_right').css({
-                float: "right"
+                float: "right",
+                display: "none"
+
             })
             $('.song_lyric_container').css({
                 height: "150px"
