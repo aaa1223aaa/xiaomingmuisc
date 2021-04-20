@@ -57,6 +57,10 @@
 
     }
 
+    .list_time span:nth-child(1) {
+        display: block !important;
+    }
+
     .list_name {
         width: 77% !important;
     }
@@ -75,6 +79,9 @@
         display: none !important;
     }
 
+    .list_menu_del {
+        display: none !important;
+    }
 
     /* 下面播放条调整 */
     .music_voice_info {
@@ -83,7 +90,9 @@
 
     .music_play,
     .music_pre,
-    .music_next {
+    .music_next,
+    switch,
+    .music_down {
         margin: 0 7% !important;
     }
 
@@ -97,7 +106,7 @@
     }
 
     .song_info {
-        height: 30% !important;
+        height: 40% !important;
 
 
     }
@@ -108,10 +117,19 @@
         height: 12%;
     }
 
-    .song_lyric_container {}
+    .song_info_pic {
+        /* width: 100px !important;
+        height: 100px !important; */
+    }
 
-    .switch {}
+    .song_info_pic img {
+        /* width: 100%!important;
+        height: 100%!important; */
+    }
 
+    .song_lyric {
+        margin-top: 5% !important;
+    }
 
 
 }
@@ -645,7 +663,7 @@ body {
     z-index: -2;
     width: 100%;
     height: 100%;
-    background: url("../images/lnj.jpg") no-repeat 0 0;
+    background: url("") no-repeat 0 0;
     background-size: cover;
     /* filter:blur(100px) */
     filter: blur(100px);
@@ -697,6 +715,7 @@ body {
     width: 21px;
     left: 4px;
     bottom: 4px;
+    line-height: 21px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;

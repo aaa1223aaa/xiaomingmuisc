@@ -336,7 +336,7 @@ $(function () {
             })
             $('.song_lyric_container').css({
                 height: "50%",
-                marginTop: "20%"
+                
             })
             aa = 1;
         } else {
